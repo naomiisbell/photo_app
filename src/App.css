@@ -1,3 +1,13 @@
 * {
   margin: 0;
 }
+
+.app {
+  background-color: #fafafa;
+}
+
+.appHeader {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
