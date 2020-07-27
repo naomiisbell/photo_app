@@ -4,8 +4,8 @@ class NavBar extends React.Component {
     render() {
         return (
             <div>
-            <div className="appHeader">
-                <h1 className="appHeaderName">Nomigram</h1>
+            <div className="header">
+                <h1 className="headerName">Nomigram</h1>
             </div>
             </div>
         )
