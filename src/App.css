@@ -20,3 +20,18 @@
 .postText {
   font-weight: normal;
 }
+
+.likeBtn {
+  border: none;
+  background-color: #fafafa;
+}
+
+.commentBtn {
+  border: none;
+  background-color: #fafafa;
+}
+
+.bookmarkBtn {
+  border: none;
+  background-color: #fafafa;
+}
