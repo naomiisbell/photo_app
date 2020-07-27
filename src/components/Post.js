@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from "@material-ui/core/Avatar"
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome"
 
 
 class Post extends React.Component {
