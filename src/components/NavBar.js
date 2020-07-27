@@ -1,13 +1,21 @@
 import React from 'react'
-import SignUpPage from './SignUpPage'
+import { Link } from "react-router";
+import SignUpPage from './SignUpPage';
 
 class NavBar extends React.Component {
     render() {
         return (
             <div className="navBar">
             <div className="header">
-                <h1 className="headerName">Nomigram</h1>
-                <button src={SignUpPage}>Login</button>
+            <h1 className="headerName">Nomigram</h1>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Profile</li>
+                        <li>Bookmarks</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
             </div>
             </div>
         )
