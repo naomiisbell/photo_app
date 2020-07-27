@@ -9,6 +9,7 @@ function App() {
       <NavBar />
       {/* NavBar/header */}
       <Post />
+      <Post />
       {/* Pictures */}
     </div>
   );
