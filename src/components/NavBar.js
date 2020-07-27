@@ -8,14 +8,12 @@ class NavBar extends React.Component {
             <div className="navBar">
             <div className="header">
             <h1 className="headerName">Nomigram</h1>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Profile</li>
-                        <li>Bookmarks</li>
-                        <li>Login</li>
-                    </ul>
-                </nav>
+                {/* <nav>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Bookmarks</li>
+                    <li>Login</li>
+                </nav> */}
             </div>
             </div>
         )
