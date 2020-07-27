@@ -79,6 +79,7 @@ https://www.youtube.com/watch?v=4l0nsK4ezNc
 https://react-icons.github.io/react-icons/
 https://material-ui.com/
 https://www.instagram.com
+https://github.com/mui-org/material-ui/blob/master/docs/src/pages/getting-started/templates/sign-in/SignIn.js
 
 Attempted firebase installation 
 https://console.firebase.google.com/project/react-photo-app-39e90/overview
