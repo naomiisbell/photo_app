@@ -18,7 +18,7 @@ class Post extends React.Component {
         this.setState({
             btnClicked: true
         })
-        console.log('clicked')
+        // console.log('clicked')
     }
 
     render() {
