@@ -72,3 +72,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 BELOW ARE ADDITIONAL NOTES I'VE TAKEN TO COMPLETE THE PROJECT INCLUDING RESOURCES I USED.
 
 -create 3 components (navigation bar, posts, and profile page)
+
+
+SOURCES
+https://www.youtube.com/watch?v=4l0nsK4ezNc
+https://react-icons.github.io/react-icons/
+https://material-ui.com/
+https://www.instagram.com
+
+Attempted firebase installation 
+https://console.firebase.google.com/project/react-photo-app-39e90/overview
