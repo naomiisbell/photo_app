@@ -21,10 +21,6 @@
   font-weight: normal;
 }
 
-.buttons {
-  display: flex;
-}
-
 .likeBtn {
   border: none;
   background-color: #fafafa;
