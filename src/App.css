@@ -10,6 +10,8 @@
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
 }
 
 .postImg {
@@ -45,8 +47,4 @@
 
 .postAvatar {
   margin-right: 10px;
-}
-
-.likeBtn:hover {
-  background-color: red;
 }
