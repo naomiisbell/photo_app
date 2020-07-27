@@ -6,19 +6,25 @@ import { FaRegBookmark } from 'react-icons/fa';
 
 
 
-class Post extends React.Component {
+class Post2 extends React.Component {
     constructor(){
         super()
         this.state = {
-            btnClicked: false
+            photoLiked: false,
+            bookmarked: false
         }
     }
-
-    clickButton = () => {
+        LikeBtnClicked = () => {
         this.setState({
-            btnClicked: true
+            photoLiked: true
         })
-        // console.log('clicked')
+        // console.log('liked')
+    }
+
+    BookmarkBtnClicked = () => {
+        this.setState({
+            bookmarked: true
+        })
     }
 
     render() {
@@ -36,9 +42,9 @@ class Post extends React.Component {
                 <img className="postImg" src="https://s.yimg.com/ny/api/res/1.2/c2MvV.66cyvr6gRKjjrHmA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/instyle_846/44c066ecce77772efa37f2490a6b388d"></img>
                 {/* image posted */}
                 <div className="buttons">
-                <button onClick= {this.clickButton} className="likeBtn" ><FaRegHeart size="2rem"/></button>
-                <button onClick= {this.clickButton} className="commentBtn" ><FaRegComment size="2rem"/></button>
-                <button onClick= {this.clickButton} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
+                <button onClick= {this.LikeBtnClicked} className="likeBtn" ><FaRegHeart size="2rem"/></button>
+                <button className="commentBtn" ><FaRegComment size="2rem"/></button>
+                <button onClick= {this.BookmarkBtnClicked} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
                 </div>
                 <h4 className="postText"><b>Username:</b> caption</h4>
                 {/* username and caption */}
@@ -49,4 +55,4 @@ class Post extends React.Component {
     }
 }
 
-export default Post;
+export default Post2;
