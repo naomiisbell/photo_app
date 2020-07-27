@@ -5,6 +5,19 @@ import { FaRegComment } from 'react-icons/fa'
 import { FaRegBookmark } from 'react-icons/fa'
 
 class Post extends React.Component {
+    constructor(){
+        super()
+        this.state = {
+            btnClicked: false
+        }
+    }
+
+    clickButton = () => {
+        this.setState({
+            btnClicked: true
+        })
+    }
+
     render() {
         return (
             <div className="post">
@@ -18,9 +31,9 @@ class Post extends React.Component {
                 <img className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
                 {/* image posted */}
                 <div className="buttons">
-                <button className="likeBtn"><FaRegHeart /></button>
-                <button className="commentBtn"><FaRegComment /></button>
-                <button className="bookmarkBtn"><FaRegBookmark /></button>
+                <button onClick= {this.clickButton}className="likeBtn"><FaRegHeart size='2rem'/></button>
+                <button onClick= {this.clickButton} className="commentBtn"><FaRegComment size='2rem' /></button>
+                <button onClick= {this.clickButton}className="bookmarkBtn"><FaRegBookmark size='2rem'/></button>
                 </div>
                 <h4 className="postText"><b>Username:</b> caption</h4>
                 {/* username and caption */}
