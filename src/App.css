@@ -19,6 +19,7 @@
 
 .postText {
   font-weight: normal;
+  padding: 20px;
 }
 
 .likeBtn {
@@ -34,4 +35,18 @@
 .bookmarkBtn {
   border: none;
   background-color: #fafafa;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.postAvatar {
+  margin-right: 10px;
+}
+
+.likeBtn:hover {
+  background-color: red;
 }
