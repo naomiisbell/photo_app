@@ -10,15 +10,21 @@ class Post extends React.Component {
     constructor(){
         super()
         this.state = {
-            btnClicked: false
+            photoLiked: false,
+            bookmarked: false
         }
     }
-
-    clickButton = () => {
+        LikeBtnClicked = () => {
         this.setState({
-            btnClicked: true
+            photoLiked: true
         })
-        // console.log('clicked')
+        // console.log('liked')
+    }
+
+    BookmarkBtnClicked = () => {
+        this.setState({
+            bookmarked: true
+        })
     }
 
     render() {
@@ -36,9 +42,9 @@ class Post extends React.Component {
                 <img className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
                 {/* image posted */}
                 <div className="buttons">
-                <button onClick= {this.clickButton} className="likeBtn" ><FaRegHeart size="2rem"/></button>
-                <button onClick= {this.clickButton} className="commentBtn" ><FaRegComment size="2rem"/></button>
-                <button onClick= {this.clickButton} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
+                <button onClick= {this.LikeBtnClicked} className="likeBtn" ><FaRegHeart size="2rem"/></button>
+                <button className="commentBtn" ><FaRegComment size="2rem"/></button>
+                <button onClick= {this.BookmarkBtnClicked} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
                 </div>
                 <h4 className="postText"><b>Username:</b> caption</h4>
                 {/* username and caption */}
