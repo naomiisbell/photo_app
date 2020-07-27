@@ -27,10 +27,10 @@ class Post extends React.Component {
                 <div className="postHeader">
                 <Avatar 
                     className="postAvatar"
-                    alt="Naomi.Isbell"
+                    alt="naomi"
                     src="static/images/1.jpg"
                 />
-                <h3>Username</h3>
+                <h3>naomi.isbell</h3>
                 </div>
                 {/* header has username and photo */}
                 <img className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
@@ -43,6 +43,8 @@ class Post extends React.Component {
                 <h4 className="postText"><b>Username:</b> caption</h4>
                 {/* username and caption */}
             </div>
+
+            
         )
     }
 }
