@@ -6,15 +6,28 @@
   background-color: #fafafa;
 }
 
-.header {
+.navBar {
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   margin-top: 25px;
   border-top: 1px solid lightgray;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* changes nav bar to not be shown in a list */
+}
+
+nav li {
+  display: inline-block;
+  margin: 15px 50px;
+}
+
 
 .post {
   max-width: 500px;
