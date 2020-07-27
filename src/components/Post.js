@@ -1,6 +1,9 @@
 import React from 'react'
 import Avatar from "@material-ui/core/Avatar"
-import { FontAwesomeIcon } from "@fontawesome/react-fontawesome"
+import { FaRegHeart } from 'react-icons/fa';
+import { FaRegComment } from 'react-icons/fa';
+import { FaRegBookmark } from 'react-icons/fa';
+
 
 
 class Post extends React.Component {
@@ -33,9 +36,9 @@ class Post extends React.Component {
                 <img className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
                 {/* image posted */}
                 <div className="buttons">
-                <button onClick= {this.clickButton}>like</button>
-                <button onClick= {this.clickButton}>comment</button>
-                <button onClick= {this.clickButton}>save</button>
+                <button onClick= {this.clickButton} className="likeBtn" ><FaRegHeart size="2rem"/></button>
+                <button onClick= {this.clickButton} className="commentBtn" ><FaRegComment size="2rem"/></button>
+                <button onClick= {this.clickButton} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
                 </div>
                 <h4 className="postText"><b>Username:</b> caption</h4>
                 {/* username and caption */}
