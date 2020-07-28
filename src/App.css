@@ -76,3 +76,11 @@ button {
   border: none;
   background-color: white;
 }
+
+input {
+  width: 300px;
+  height: 25px;
+  border-radius: 10rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
