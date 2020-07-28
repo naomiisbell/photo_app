@@ -7,8 +7,8 @@ import { FaRegBookmark } from 'react-icons/fa';
 
 
 class Post2 extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             photoLiked: false,
             bookmarked: false
@@ -39,7 +39,7 @@ class Post2 extends React.Component {
                 <h3>arianagrande</h3>
                 </div>
                 {/* header has username and photo */}
-                <img className="postImg" src="https://s.yimg.com/ny/api/res/1.2/c2MvV.66cyvr6gRKjjrHmA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/instyle_846/44c066ecce77772efa37f2490a6b388d"></img>
+                <img alt="" className="postImg" src="https://s.yimg.com/ny/api/res/1.2/c2MvV.66cyvr6gRKjjrHmA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/instyle_846/44c066ecce77772efa37f2490a6b388d"></img>
                 {/* image posted */}
                 <div className="buttons">
                 <button onClick= {this.LikeBtnClicked} className="likeBtn" ><FaRegHeart size="2rem"/></button>
@@ -48,6 +48,13 @@ class Post2 extends React.Component {
                 </div>
                 <h4 className="postText"><b>arianagrande:</b> caption</h4>
                 {/* username and caption */}
+                <form>
+                    <input
+                    type="comment"
+                    placeholder="Add a comment"
+                    >
+                    </input>
+                </form>
             </div>
 
             
