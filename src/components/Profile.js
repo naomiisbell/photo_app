@@ -34,6 +34,9 @@ class Profile extends React.Component {
                         </tr>
                     </table>
                 </div>
+            <div className="profileImg">
+                <img className="profilePost" src="https://www.deccanherald.com/sites/dh/files/articleimages/2020/07/24/188503-01-03-1595592722.jpg"></img>
+            </div>
             </div>
             </div>
         )
