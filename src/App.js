@@ -9,6 +9,7 @@ import './App.css';
 import Post from './components/Post'
 import Post2 from './components/Post2'
 import Post3 from './components/Post3'
+import Profile from './components/Profile'
 import SignUpPage from './components/SignUpPage'
 import { FiHome } from 'react-icons/fi'
 import Avatar from "@material-ui/core/Avatar"
@@ -58,9 +59,9 @@ export default function App() {
             <Post2 />
             <Post3 />
           </Route>
-          {/* <Route path="/profile">
+          <Route path="/profile">
             <Profile />
-          </Route> */}
+          </Route>
           {/* <Route path="/saved">
             <Bookmarked />
           </Route> */}
