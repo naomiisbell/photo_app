@@ -7,8 +7,8 @@ import { FaRegBookmark } from 'react-icons/fa';
 
 
 class Post3 extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             photoLiked: false,
             bookmarked: false
@@ -39,7 +39,7 @@ class Post3 extends React.Component {
                 <h3>madonna</h3>
                 </div>
                 {/* header has username and photo */}
-                <img className="postImg" src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Madonna/Madonna_16_9_1578385372.jpg?itok=JDz5PdTl"></img>
+                <img alt="" className="postImg" src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Madonna/Madonna_16_9_1578385372.jpg?itok=JDz5PdTl"></img>
                 {/* image posted */}
                 <div className="buttons">
                 <button onClick= {this.LikeBtnClicked} className="likeBtn" ><FaRegHeart size="2rem"/></button>
@@ -48,6 +48,13 @@ class Post3 extends React.Component {
                 </div>
                 <h4 className="postText"><b>madonna:</b> caption</h4>
                 {/* username and caption */}
+                <form>
+                    <input
+                    type="comment"
+                    placeholder="Add a comment"
+                    >
+                    </input>
+                </form>
             </div>
 
             
