@@ -47,7 +47,7 @@ class Post extends React.Component {
                 <button className="commentBtn" ><FaRegComment size="2rem"/></button>
                 <button onClick= {this.BookmarkBtnClicked} className="bookmarkBtn"><FaRegBookmark size="2rem"/></button>
                 </div>
-                <h4 className="postText"><b>naomi.isbell:</b> caption</h4>
+                <h4 className="postText"><b>naomi.isbell:</b> the sunset 🙌🏼</h4>
                 {/* username and caption */}
                 <form>
                     <input
