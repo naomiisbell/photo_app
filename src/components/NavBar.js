@@ -1,5 +1,8 @@
 import React from 'react'
-import { Link } from "react-router";
+import { FiHome } from 'react-icons/fi'
+import Avatar from "@material-ui/core/Avatar"
+import { FaRegBookmark } from 'react-icons/fa'
+import { FiLogOut } from 'react-icons/fi'
 
 class NavBar extends React.Component {
     render() {
@@ -7,10 +10,10 @@ class NavBar extends React.Component {
             <div className="navBar">
             <h1 className="headerName">Nomigram</h1>
                 <nav>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Bookmarks</li>
-                    <li>Login</li>
+                    <button><li><FiHome size="2rem" /></li></button>
+                    <button><li><Avatar/></li></button>
+                    <button><li><FaRegBookmark size="2rem"/></li></button>
+                    <button><li><FiLogOut size="2rem"/></li></button>
                 </nav>
             </div>
         )
