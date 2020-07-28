@@ -116,3 +116,7 @@ h2 {
   width: 100%;
   object-fit: contain;
 }
+
+p {
+  text-align: center;
+}
