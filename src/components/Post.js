@@ -18,7 +18,7 @@ class Post extends React.Component {
         this.setState({
             photoLiked: true
         })
-        // console.log('liked')
+        console.log('liked')
     }
 
     BookmarkBtnClicked = () => {
