@@ -80,6 +80,7 @@ https://react-icons.github.io/react-icons/
 https://material-ui.com/
 https://www.instagram.com
 https://github.com/mui-org/material-ui/blob/master/docs/src/pages/getting-started/templates/sign-in/SignIn.js
+https://www.youtube.com/watch?v=f7T48W0cwXM&t=6588s (used for style inspiration)
 
 Attempted firebase installation 
 https://console.firebase.google.com/project/react-photo-app-39e90/overview
