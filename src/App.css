@@ -104,3 +104,15 @@ h2 {
 .table {
   border: solid;
 }
+
+.profileImg {
+  max-width: 500px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+}
+
+.profilePost {
+  width: 100%;
+  object-fit: contain;
+}
