@@ -7,18 +7,18 @@ import { FaRegBookmark } from 'react-icons/fa';
 
 
 class Post extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             photoLiked: false,
-            bookmarked: false
+            bookmarked: false,
         }
     }
         LikeBtnClicked = () => {
         this.setState({
             photoLiked: true
         })
-        console.log('liked')
+        // console.log('liked')
     }
 
     BookmarkBtnClicked = () => {
@@ -39,7 +39,7 @@ class Post extends React.Component {
                 <h3>naomi.isbell</h3>
                 </div>
                 {/* header has username and photo */}
-                <img className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
+                <img alt="" className="postImg" src="https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg"></img>
                 {/* image posted */}
                 <div className="buttons">
                 <button onClick= {this.LikeBtnClicked} className="likeBtn" ><FaRegHeart size="2rem"/></button>
@@ -48,6 +48,14 @@ class Post extends React.Component {
                 </div>
                 <h4 className="postText"><b>naomi.isbell:</b> caption</h4>
                 {/* username and caption */}
+                <form>
+                    <input
+                    type="comment"
+                    placeholder="Add a comment"
+                    >
+                    </input>
+                </form>
+
             </div>
 
             
