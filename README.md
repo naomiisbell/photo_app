@@ -84,3 +84,6 @@ https://www.youtube.com/watch?v=f7T48W0cwXM&t=6588s (used for style inspiration)
 
 Attempted firebase installation 
 https://console.firebase.google.com/project/react-photo-app-39e90/overview
+
+
+UNFORTUNATELY due to the time frame we had to work on this project i was unable to learn firebase for this but i did install it and learned how to set up a project but could not implement it 
