@@ -1,4 +1,5 @@
 import React from 'react'
+// below are the libraries i used for the icons and avatar
 import Avatar from "@material-ui/core/Avatar"
 import { FaRegHeart } from 'react-icons/fa';
 import { FaRegComment } from 'react-icons/fa';
