@@ -76,10 +76,15 @@ BELOW ARE ADDITIONAL NOTES I'VE TAKEN TO COMPLETE THE PROJECT INCLUDING RESOURCE
 
 SOURCES
 https://www.youtube.com/watch?v=4l0nsK4ezNc
+
 https://react-icons.github.io/react-icons/
+
 https://material-ui.com/
+
 https://www.instagram.com
+
 https://github.com/mui-org/material-ui/blob/master/docs/src/pages/getting-started/templates/sign-in/SignIn.js
+
 https://www.youtube.com/watch?v=f7T48W0cwXM&t=6588s (used for style inspiration)
 
 Attempted firebase installation 
