@@ -31,7 +31,7 @@ export default function App() {
 
                     <button>
                       <li>
-                        <Link to="/profile"><Avatar/></Link>
+                        <Link to="/profile"><Avatar src="https://i.redd.it/m5ackmclri351.jpg"/></Link>
                       </li>
                     </button>
 
