@@ -28,7 +28,6 @@ nav li {
   margin: 15px 50px;
 }
 
-
 .post {
   max-width: 500px;
   background-color: white;
@@ -45,7 +44,7 @@ nav li {
 
 .postText {
   font-weight: normal;
-  padding: 20px;
+  padding: 10px;
 }
 
 .likeBtn {
@@ -73,7 +72,7 @@ nav li {
   margin-right: 10px;
 }
 
-nav {
-  display: flex;
-  list-style: none;
+button {
+  border: none;
+  background-color: white;
 }
